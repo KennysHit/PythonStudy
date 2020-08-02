@@ -1,7 +1,7 @@
 if __name__ == '__main__':
     def recursion(n, a, b, c):
         def move(x, y):
-            print(x + "-->" + y)
+            print(f"{x} --> {y}")
 
         if n == 1:
             move(a, c)
